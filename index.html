@@ -2,14 +2,16 @@
 <html>
 <head>
     <title>Rob Watts</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css"> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spartan:wght@300&display=swap">
     <meta name="viewport" content="width=device-width">
 </head>
 
 <body>
-    <header>
-        <h1>Rob Watts</h1>
+
+    <header class="clearfix">
+        <h1 id="top">Rob Watts</h1>
         <nav>
             <ul>
                 <li>Home</li>
@@ -19,9 +21,11 @@
         </nav>
     </header> 
     
-    <img src="images/responsive-layout-profile.png" alt="Responsive layout profile">
-    <p>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am exceited to put all my skills to use!</p>
-    
+    <figure class="intro">
+        <img src="images/responsive-layout-profile.png" alt="Responsive layout profile">
+        <figcaption>Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am exceited to put all my skills to use!</figcaption>
+    </figure>
+        
     <h2>Portfolio</h2>
     
     <img src="images/portfolio-1.png" alt="Marketing page example">
@@ -49,15 +53,17 @@
     <p>Someone can enter in the numbers they want, and press the big blue button and get the result</p>
 
 
-    <h2>Contact</h2>
-    <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
-    <p>Phone (UK): <a href="tel:07943404372">07943404372</a></p>
-    <p>Email: <a href="mailto:robinwatts96@gmail.com">robinwatts96@gmail.com</a></p>
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
+        <p>Phone (UK): <a href="tel:07943404372">07943404372</a></p>
+        <p>Email: <a href="mailto:robinwatts96@gmail.com">robinwatts96@gmail.com</a></p>
+    </div>
 
-    <footer>
+    <footer class="clearfixS">
         <ul>
-            <li>Rob Watts</li>
-            <li>BACK TO TOP</li>
+            <li class="footer-rob">Rob Watts</li>
+            <li class="back-to-top"><a href="#top">BACK TO TOP</a></li>
         </ul>   
     </footer>
 
