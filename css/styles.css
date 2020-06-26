@@ -42,6 +42,7 @@ nav li {
     background-color: #95a6ab;
     padding: 2em 1em 2em 1em;
     margin: auto;
+    color: #F7F5F0;
 }
 
 footer ul {
@@ -55,6 +56,7 @@ footer {
     padding: 2em;
     margin: auto;
     background-color: #9B95AB;
+    color: #F7F5F0;
 }
 
 .footer-rob {
