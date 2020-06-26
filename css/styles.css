@@ -7,7 +7,7 @@
 body {
     font-family: 'Spartan', serif;
     width: 100%;
-    max-width: 320px;
+    max-width: 768px;
     background-color: #f7f5f0;
 }
 
@@ -31,13 +31,13 @@ img {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0 0 1em 0;
 }
 
 nav li {
     text-align: center;
     background-color: #E5DFF7;
-    margin: 0.5em;
+    margin: 0.7em;
     padding: 0.5em;
     text-transform: uppercase;
 }
@@ -144,3 +144,60 @@ h1 {
 }
 
 /* Media Queries */
+
+/* Tablet */    
+
+@media (min-width: 768px) {
+    body {    
+        max-width: 1024px;
+    }  
+ 
+    nav {
+        position: relative;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        position: absolute;
+        left: 20%;
+        top: -3.5em;   
+    }
+    
+    nav li {
+        display: inline; 
+          
+    }
+    
+    h1 {
+        padding: 2em 0 3em;
+    }
+
+    .intro {
+        padding-bottom: 0;
+    }
+    
+    .intro img {
+        float: right;
+        width: 40%;
+    }
+
+    .intro figcaption {
+       width: 50%;
+       text-align: left;
+       float: left;
+       font-size: 1.2em;
+    }
+
+    .marketing {
+        float: left;
+        width: 40%;
+    }
+
+    .search {
+        float: right;
+        width: 40%;
+    }
+
+}
