@@ -45,8 +45,8 @@ nav li {
 .contact {
     background-color: #95a6ab;
     padding: 2em 1em 2em 1em;
-    margin: auto;
     color: #F7F5F0;
+    margin: 0 auto;
 }
 
 footer ul {
@@ -150,6 +150,7 @@ h1 {
 @media (min-width: 768px) {
     body {    
         max-width: 1024px;
+        background-color: white;
     }  
  
     nav {
@@ -174,6 +175,10 @@ h1 {
         padding: 2em 0 3em;
     }
 
+    .media-container {
+       background-color: green;
+    }
+
     .intro {
         padding-bottom: 0;
     }
@@ -193,11 +198,41 @@ h1 {
     .marketing {
         float: left;
         width: 40%;
+        margin-left: 5%;
+        
     }
 
     .search {
         float: right;
         width: 40%;
+        margin-right: 5%;
     }
 
+    .travel {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .map {
+        float: right;
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    .photo {
+        float: left;
+        width: 40%;
+        margin-left: 5%;
+    }
+
+    .calculator {
+        float: right;
+        width: 40%;
+        margin-right: 5%;
+    }
+
+    .contact {
+      display: inline-block;
+    }
 }
