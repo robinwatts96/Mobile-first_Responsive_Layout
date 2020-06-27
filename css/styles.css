@@ -27,6 +27,23 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: #F7F5F0;
+}
+
+a:hover {
+   color: #f7f5f0;
+}
+
+nav li:hover {
+    background-color: #95A6AB;
+}
+
 /* ----- Navigation ----- */
 
 nav ul {
