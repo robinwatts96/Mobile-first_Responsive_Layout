@@ -131,7 +131,8 @@ h1 {
 .photo,
 .skills,
 .calculator {
-    padding-bottom: 2em;
+    padding: 0 1em 2em 1em;
+
 }
 
 .marketing img,
@@ -170,6 +171,7 @@ h1 {
     body {    
         max-width: 1024px;
         background-color: #f7f5f0;
+        margin: 0 auto;
     }  
  
     header {
@@ -250,7 +252,7 @@ h1 {
     }
 
     .skills {
-        margin-left: 5%;
+        margin: 0 auto;
         width: 40%;
       
     }
@@ -301,64 +303,26 @@ h1 {
     }
 
 
-    .wrap1 {
-      display: block;
-      width: auto;
-      margin: 0 1em 0 1em;
-    }
-    
-    .marketing {
-      width: 30%;
-      margin: 0 auto;
-      float: left;
-        
-    }
-
-    .search {
-        width: 30%;
+    .wrap {
         margin: 0 auto;
-        
+        max-width: 1300px;
+        padding-bottom: 10px;
+        margin-left: 1.5em;
     }
 
-    
-    .travel {
-        width: 30%;
-        margin: 0 auto;
-        float: inherit;
-        
-    }
-
-    
-    .wrap2 {
+    .col {
         display: block;
-        width: auto;
-        margin: 0 1em 0 1em;
-      }
-    
-    .map {
-        margin: 0 auto;
-        width: 30%;
+        margin: 10px 20px 10px 20px;
+        max-width: 100%;
+        text-align: center;
         float: left;
+        width: calc(30% - 15px);
+
     }
 
-    .photo {
-        margin: 0 0 0 3em;
-        width: 30%;
-       
-    }
+   
+    
 
-    .calculator {
-        margin: -1em 0.4em;
-        width: 30%;
-        float: right;
-        
-    }
-
-    .skills {
-        margin-left: 2%;
-        width: 30%;
-      
-    }
 
    
     
