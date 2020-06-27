@@ -283,6 +283,66 @@ h1 {
         margin: 0.8em;
     }
 
+
+    .wrap1 {
+      display: block;
+      width: auto;
+      margin: 0 1em 0 1em;
+    }
+    
+    .marketing {
+      width: 30%;
+      margin: 0 auto;
+      float: left;
+        
+    }
+
+    .search {
+        width: 30%;
+        margin: 0 auto;
+        
+    }
+
+    
+    .travel {
+        width: 30%;
+        margin: 0 auto;
+        float: inherit;
+        
+    }
+
+    
+    .wrap2 {
+        display: block;
+        width: auto;
+        margin: 0 1em 0 1em;
+      }
+    
+    .map {
+        margin: 0 auto;
+        width: 30%;
+        float: left;
+    }
+
+    .photo {
+        margin: 0 0 0 3em;
+        width: 30%;
+       
+    }
+
+    .calculator {
+        margin: -1em 0.4em;
+        width: 30%;
+        float: right;
+        
+    }
+
+    .skills {
+        margin-left: 2%;
+        width: 30%;
+      
+    }
+
    
     
     
