@@ -152,7 +152,7 @@ h1 {
 @media (min-width: 768px) {
     body {    
         max-width: 1024px;
-        background-color: white;
+        background-color: #f7f5f0;
     }  
  
     header {
@@ -243,4 +243,51 @@ h1 {
       width: 100%;
       
     }
+}
+
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+    body {    
+        max-width: 1400px;
+        
+    } 
+
+    header {
+        height: 8em;
+        position: relative;
+        
+    }
+
+    #top {
+        margin-left: 1.2em;
+        margin-top: 0.75em;
+        position: absolute;
+    }
+
+    nav ul {
+         
+        
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+        position: absolute;
+        left: 48%;
+        top: 70%; 
+        
+    }
+
+    nav li {
+        display: inline;
+        margin: 0.8em;
+    }
+
+   
+    
+    
+    
+    
+
+
 }
